@@ -256,7 +256,7 @@ app/User.php 모델 파일 편집
 
 **로그인**
 
-    http post [http://laravel6-jwt.test/api/auth/login](http://laravel-jwt.test/api/auth/login) email=admin@admin.com password=password
+    http post http://laravel6-jwt.test/api/auth/login  email=admin@admin.com password=password
 
     HTTP/1.1 200 OK
     Cache-Control: no-cache, private
@@ -299,7 +299,7 @@ app/User.php 모델 파일 편집
 
 **로그아웃**
 
-    http post [http://laravel6-jwt.test/api/auth/logout](http://laravel-jwt.test/api/auth/logout) 'Authorization:bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVsNi1qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU2OTIyMzQxNywiZXhwIjoxNTY5MjI3MDE3LCJuYmYiOjE1NjkyMjM0MTcsImp0aSI6IkI0Y3c5R0pjZEFpdnZ4cDciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.gzlB4ipYZy_ps5dn1AFEtPEAPVh7DnsA4Qb0Y0y_fDI'
+    http post http://laravel6-jwt.test/api/auth/logout 'Authorization:bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sYXJhdmVsNi1qd3QudGVzdFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTU2OTIyMzQxNywiZXhwIjoxNTY5MjI3MDE3LCJuYmYiOjE1NjkyMjM0MTcsImp0aSI6IkI0Y3c5R0pjZEFpdnZ4cDciLCJzdWIiOjEsInBydiI6Ijg3ZTBhZjFlZjlmZDE1ODEyZmRlYzk3MTUzYTE0ZTBiMDQ3NTQ2YWEifQ.gzlB4ipYZy_ps5dn1AFEtPEAPVh7DnsA4Qb0Y0y_fDI'
 
     HTTP/1.1 200 OK
     Cache-Control: no-cache, private
